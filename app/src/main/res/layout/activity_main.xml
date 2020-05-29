@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World,My name is LXT."
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="apply key"
+            android:onClick="onMyButtonClick"
+            android:id="@+id/button" android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="verify key"
+            android:onClick="onMyButton2Click"
+            android:id="@+id/button2" android:layout_gravity="center_horizontal"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sign timing"
+            android:onClick="onMyButton3Click"
+            android:id="@+id/button3" android:layout_gravity="center_horizontal"/>
+    <!--//////////////////////签名计时计时//////////////////-->
+
+    <!--//////////////////////验证签名计时计时//////////////////-->
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="verify timing"
+            android:onClick="onMyButton4Click"
+            android:id="@+id/button4" android:layout_gravity="center_horizontal"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G1 scalar expo timing"
+            android:onClick="onMyButClick5"
+            android:id="@+id/button5" android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G2 scalar expo timing"
+            android:onClick="onMyButClick6"
+            android:id="@+id/button6" android:layout_gravity="center_horizontal"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GT scalar expo timing"
+            android:onClick="onMyButClick7"
+            android:id="@+id/button7" android:layout_gravity="center_horizontal"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pairing timing"
+            android:onClick="onMyButClick8"
+            android:id="@+id/button8" android:layout_gravity="center_horizontal"/>
+</LinearLayout>
